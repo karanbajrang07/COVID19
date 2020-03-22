@@ -2,6 +2,7 @@ import React from 'react';
 import corona from './corona.jpeg';
 import './App.css';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import YouTube from 'react-youtube-embed'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <p>DEATHS  </p>
       </div>
       <div style={{margin:"10px"}}>
-       <h1>23</h1>
+       <h1>25</h1>
       <p>Recovered Cases</p>
       </div>
       </div>
@@ -35,6 +36,7 @@ function App() {
   options={{height: 400}}
 />
 <a href="https://www.mohfw.gov.in/" target="_blank">Click here for more updates</a>
+<YouTube id='4dPd708Sk98' />
 </div>
      
    
