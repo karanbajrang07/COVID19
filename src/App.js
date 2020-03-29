@@ -1,5 +1,6 @@
 import React from 'react';
 import corona from './corona.jpeg';
+import Tablee from './table.js';
 import './App.css';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import YouTube from 'react-youtube-embed'
@@ -7,6 +8,7 @@ import YouTube from 'react-youtube-embed'
 function App() {
   return (
     <div className="App" style={{ backgroundImage:`url(${corona})`}}>
+      <div class="overlay">
       <header className="App-header">
         <div>   COVID19- A THREAT TO HUMANITY</div>
       </header>
@@ -26,7 +28,7 @@ function App() {
       </div>
       </div>
       <div>
-    
+    <Tablee/>
       </div>
     
         <div className="twitterFeed">
@@ -38,7 +40,7 @@ function App() {
 <a href="https://www.mohfw.gov.in/" target="_blank">Click here for more updates</a>
 <YouTube id='4dPd708Sk98' />
 </div>
-     
+</div>
    
     </div>
   );
