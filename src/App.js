@@ -281,8 +281,9 @@ componentDidMount() {
   screenName="WHO"
   options={{height: 400}}
 />
+<div style={{marginTop:"20px", marginBottom:"20px"}}><YouTube id='4dPd708Sk98' /></div>
+
 <a href="https://www.mohfw.gov.in/" target="_blank">Click here for more updates</a>
-<YouTube id='4dPd708Sk98' />
 </div>
 </div>
    

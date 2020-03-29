@@ -3,7 +3,9 @@
   text-align: center;
    min-height: 118vh;  
 }
-
+a {
+  color: #FFF;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -40,17 +42,28 @@
 .App-link {
   color: #61dafb;
 }
+
 @media screen and (min-width: 768px) {
   .twitterFeed{
     width: 360px;
     position:absolute;
     right:1%;
     top:20%;
+    margin-top: 20px;
   }
   .table-c{
     width: 64% !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .twitterFeed{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 @keyframes App-logo-spin {
