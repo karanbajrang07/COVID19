@@ -6,211 +6,159 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import YouTube from 'react-youtube-embed'
 const dataa=[
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 19,
-    "cured": 1,
-    "deaths": 0,
-    "noOfCases": 19,
+    "cured": "1",
+    "deaths": "0",
+    "noOfCases": "23",
     "state": "Andhra Pradesh"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 9,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 9,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "9",
     "state": "Andaman and Nicobar Islands"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 11,
-    "cured": 0,
-    "deaths": 1,
-    "noOfCases": 11,
+    "cured": "0",
+    "deaths": "1",
+    "noOfCases": "15",
     "state": "Bihar"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 8,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 8,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "8",
     "state": "Chandigarh"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 7,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 7,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "7",
     "state": "Chhattisgarh"
   },
   {
-    "confirmedCasesForiegn": 1,
-    "confirmedCasesIndian": 49,
-    "cured": 6,
-    "deaths": 2,
-    "noOfCases": 50,
+    "cured": "6",
+    "deaths": "2",
+    "noOfCases": "88",
     "state": "Delhi"
   },
   {
-    "confirmedCasesForiegn": 1,
-    "confirmedCasesIndian": 5,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 6,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "6",
     "state": "Goa"
   },
   {
-    "confirmedCasesForiegn": 1,
-    "confirmedCasesIndian": 58,
-    "cured": 1,
-    "deaths": 5,
-    "noOfCases": 59,
+    "cured": "1",
+    "deaths": "6",
+    "noOfCases": "70",
     "state": "Gujarat"
   },
   {
-    "confirmedCasesForiegn": 14,
-    "confirmedCasesIndian": 33,
-    "cured": 17,
-    "deaths": 0,
-    "noOfCases": 47,
+    "cured": "18",
+    "deaths": "0",
+    "noOfCases": "50",
     "state": "Haryana"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 3,
-    "cured": 0,
-    "deaths": 1,
-    "noOfCases": 3,
+    "cured": "0",
+    "deaths": "1",
+    "noOfCases": "3",
     "state": "Himachal Pradesh"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 31,
-    "cured": 1,
-    "deaths": 2,
-    "noOfCases": 31,
+    "cured": "2",
+    "deaths": "2",
+    "noOfCases": "48",
     "state": "Jammu and Kashmir"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 76,
-    "cured": 5,
-    "deaths": 3,
-    "noOfCases": 76,
+    "cured": "5",
+    "deaths": "3",
+    "noOfCases": "83",
     "state": "Karnataka"
   },
   {
-    "confirmedCasesForiegn": 8,
-    "confirmedCasesIndian": 182,
-    "cured": 15,
-    "deaths": 1,
-    "noOfCases": 190,
+    "cured": "19",
+    "deaths": "1",
+    "noOfCases": "210",
     "state": "Kerala"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 13,
-    "cured": 3,
-    "deaths": 0,
-    "noOfCases": 13,
+    "cured": "3",
+    "deaths": "0",
+    "noOfCases": "13",
     "state": "Ladakh"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 30,
-    "cured": 0,
-    "deaths": 2,
-    "noOfCases": 30,
+    "cured": "0",
+    "deaths": "3",
+    "noOfCases": "47",
     "state": "Madhya Pradesh"
   },
   {
-    "confirmedCasesForiegn": 3,
-    "confirmedCasesIndian": 186,
-    "cured": 25,
-    "deaths": 6,
-    "noOfCases": 189,
+    "cured": "25",
+    "deaths": "8",
+    "noOfCases": "201",
     "state": "Maharashtra"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 1,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 1,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "1",
     "state": "Manipur"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 1,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 1,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "1",
     "state": "Mizoram"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 3,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 3,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "3",
     "state": "Odisha"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 1,
-    "cured": 0,
-    "deaths": 0,
-    "noOfCases": 1,
+    "cured": "0",
+    "deaths": "0",
+    "noOfCases": "1",
     "state": "Puducherry"
   },
   {
-    "confirmedCasesForiegn": 0,
-    "confirmedCasesIndian": 38,
-    "cured": 1,
-    "deaths": 1,
-    "noOfCases": 38,
+    "cured": "1",
+    "deaths": "1",
+    "noOfCases": "38",
     "state": "Punjab"
   },
   {
-    "confirmedCasesForiegn": 2,
-    "confirmedCasesIndian": 55,
-    "cured": 3,
-    "deaths": 0,
-    "noOfCases": 57,
+    "cured": "3",
+    "deaths": "0",
+    "noOfCases": "61",
     "state": "Rajasthan"
   },
   {
-    "confirmedCasesForiegn": 6,
-    "confirmedCasesIndian": 49,
-    "cured": 4,
-    "deaths": 1,
-    "noOfCases": 55,
+    "cured": "4",
+    "deaths": "1",
+    "noOfCases": "73",
     "state": "Tamil Nadu"
   },
   {
-    "confirmedCasesForiegn": 10,
-    "confirmedCasesIndian": 66,
-    "cured": 1,
-    "deaths": 1,
-    "noOfCases": 76,
+    "cured": "1",
+    "deaths": "1",
+    "noOfCases": "81",
     "state": "Telengana"
   },
   {
-    "confirmedCasesForiegn": 1,
-    "confirmedCasesIndian": 7,
-    "cured": 2,
-    "deaths": 0,
-    "noOfCases": 8,
+    "cured": "2",
+    "deaths": "0",
+    "noOfCases": "8",
     "state": "Uttarakhand"
   },
   {
-    "confirmedCasesForiegn": 1,
-    "confirmedCasesIndian": 65,
-    "cured": 11,
-    "deaths": 0,
-    "noOfCases": 66,
+    "cured": "11",
+    "deaths": "0",
+    "noOfCases": "83",
     "state": "Uttar Pradesh"
   }
 ]
@@ -222,9 +170,9 @@ let totalcures=0;
 let totaldeath=0;
 let rows = [];
 dataa.map(item=>{
-  totalcases+=item.noOfCases;
-  totalcures+=item.cured;
-  totaldeath+=item.deaths
+  totalcases+=parseFloat(item.noOfCases);
+  totalcures+=parseFloat(item.cured);
+  totaldeath+= parseFloat(item.deaths);
   rows.push(createData(item.state, item.noOfCases, item.cured,item.deaths))
 });
 class App extends Component {
@@ -233,9 +181,8 @@ class App extends Component {
 }
 componentDidMount() {
 
-      const procxy='https://cors-anywhere.herokuapp.com/';
       const url='https://covid-cases-india.azurewebsites.net/';
-    fetch(procxy+url)
+    fetch(url)
     .then(response => response.json())
     .then(data => this.setState({ data }))
     //  .then(response => response.json() , console.log(response))
@@ -257,9 +204,9 @@ componentDidMount() {
     let totaldeathAPI=0;
     let rowsAPI = [];
     this.state.data.map(item=>{
-      totalcases+=item.noOfCases;
-      totalcures+=item.cured;
-      totaldeath+=item.deaths
+      totalcasesAPI+= parseFloat(item.noOfCases);
+      totalcuresAPI+= parseFloat(item.cured);
+      totaldeathAPI+= parseFloat(item.deaths);
       rowsAPI.push(createData(item.state, item.noOfCases, item.cured,item.deaths))
     });
     rows=(rowsAPI.length==0)?rows:rowsAPI;
