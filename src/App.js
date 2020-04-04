@@ -8,7 +8,7 @@ const dataa=[
   {
     "cured": 1,
     "deaths": 1,
-    "noOfCases": 86,
+    "noOfCases": 161,
     "state": "Andhra Pradesh"
   },
   {
@@ -20,103 +20,109 @@ const dataa=[
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 5,
+    "noOfCases": 1,
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "cured": 0,
+    "deaths": 0,
+    "noOfCases": 24,
     "state": "Assam"
   },
   {
     "cured": 0,
     "deaths": 1,
-    "noOfCases": 24,
+    "noOfCases": 29,
     "state": "Bihar"
   },
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 16,
+    "noOfCases": 18,
     "state": "Chandigarh"
   },
   {
-    "cured": 2,
+    "cured": 3,
     "deaths": 0,
     "noOfCases": 9,
     "state": "Chhattisgarh"
   },
   {
     "cured": 8,
-    "deaths": 4,
-    "noOfCases": 219,
+    "deaths": 6,
+    "noOfCases": 386,
     "state": "Delhi"
   },
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 5,
+    "noOfCases": 6,
     "state": "Goa"
   },
   {
-    "cured": 8,
-    "deaths": 7,
-    "noOfCases": 87,
+    "cured": 10,
+    "deaths": 9,
+    "noOfCases": 95,
     "state": "Gujarat"
   },
   {
-    "cured": 21,
+    "cured": 24,
     "deaths": 0,
-    "noOfCases": 43,
+    "noOfCases": 49,
     "state": "Haryana"
   },
   {
     "cured": 1,
     "deaths": 1,
-    "noOfCases": 3,
+    "noOfCases": 6,
     "state": "Himachal Pradesh"
   },
   {
-    "cured": 2,
+    "cured": 3,
     "deaths": 2,
-    "noOfCases": 62,
+    "noOfCases": 75,
     "state": "Jammu and Kashmir"
   },
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 1,
+    "noOfCases": 2,
     "state": "Jharkhand"
   },
   {
-    "cured": 9,
+    "cured": 12,
     "deaths": 3,
-    "noOfCases": 110,
+    "noOfCases": 128,
     "state": "Karnataka"
   },
   {
-    "cured": 25,
+    "cured": 41,
     "deaths": 2,
-    "noOfCases": 265,
+    "noOfCases": 295,
     "state": "Kerala"
   },
   {
     "cured": 3,
     "deaths": 0,
-    "noOfCases": 13,
+    "noOfCases": 14,
     "state": "Ladakh"
   },
   {
     "cured": 0,
     "deaths": 6,
-    "noOfCases": 99,
+    "noOfCases": 104,
     "state": "Madhya Pradesh"
   },
   {
     "cured": 42,
-    "deaths": 13,
-    "noOfCases": 335,
+    "deaths": 19,
+    "noOfCases": 423,
     "state": "Maharashtra"
   },
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 1,
+    "noOfCases": 2,
     "state": "Manipur"
   },
   {
@@ -128,55 +134,55 @@ const dataa=[
   {
     "cured": 0,
     "deaths": 0,
-    "noOfCases": 4,
+    "noOfCases": 5,
     "state": "Odisha"
   },
   {
     "cured": 1,
     "deaths": 0,
-    "noOfCases": 3,
+    "noOfCases": 5,
     "state": "Puducherry"
   },
   {
     "cured": 1,
-    "deaths": 4,
-    "noOfCases": 46,
+    "deaths": 5,
+    "noOfCases": 53,
     "state": "Punjab"
   },
   {
     "cured": 3,
     "deaths": 0,
-    "noOfCases": 108,
+    "noOfCases": 179,
     "state": "Rajasthan"
   },
   {
     "cured": 6,
     "deaths": 1,
-    "noOfCases": 234,
+    "noOfCases": 411,
     "state": "Tamil Nadu"
   },
   {
     "cured": 1,
-    "deaths": 3,
-    "noOfCases": 107,
+    "deaths": 7,
+    "noOfCases": 158,
     "state": "Telengana"
   },
   {
     "cured": 2,
     "deaths": 0,
-    "noOfCases": 7,
+    "noOfCases": 16,
     "state": "Uttarakhand"
   },
   {
-    "cured": 14,
+    "cured": 19,
     "deaths": 2,
-    "noOfCases": 113,
+    "noOfCases": 174,
     "state": "Uttar Pradesh"
   },
   {
-    "cured": 6,
+    "cured": 3,
     "deaths": 3,
-    "noOfCases": 53,
+    "noOfCases": 63,
     "state": "West Bengal"
   }
 ]
@@ -199,7 +205,7 @@ class App extends Component {
 }
 componentDidMount() {
 
-      const url='https://covid-india-cases.herokuapp.com/';
+      const url='https://covid-india-cases.herokuapp.com/states/';
     fetch(url)
     .then(response => response.json())
     .then(data => this.setState({ data }))
